@@ -3,7 +3,7 @@ Repository containing solved challenges from SoloLearn's mobile app
 ## Content:
 1. [Totatives](#totatives)
 
-###Totatives
+### Totatives
 In number theory, Euler's totient function (phi function),
 counts the positive integers up to a given integer n that are relatively prime to n.
 Two integers are said to be relatively prime,
