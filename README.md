@@ -2,6 +2,7 @@
 Repository containing solved challenges from SoloLearn's mobile app
 ## Content:
 1. [Totatives](#totatives)
+2. [Anadrome](#anadrome)
 
 ### Totatives
 In number theory, Euler's totient function (phi function),
@@ -19,3 +20,22 @@ Output: 6
 
 Note that, phi(1)=1 because 1 is considered to be relatively prime to every positive number.
 Write a program to take positive integer n as an input and print the number of totatives in the numbers less than or equal to n.
+
+### Anadrome
+
+An anagram is a word or phrase formed by rearranging the letters of a different word or phrase.
+For example, "Sool" is an anagram for "Solo".
+A palindrome is a word or phrase which reads the same backward as forward, such as "madam".
+An anadrome is a word or phrase if any of its anagrams form a palindrome.
+
+For example:
+Input: "SoloSolo"
+Output: yes ("SoollooS" is an anagram of "SoloSolo" which also is a palindrome).
+
+Input: "3haha"
+Output: yes ("ha3ah" is an anagram of "3haha" which also is a palindrome).
+
+Input: "Solo"
+Output: no
+
+Write a program to check if the user input is an anadrome or not
