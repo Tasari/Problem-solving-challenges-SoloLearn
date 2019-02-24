@@ -29,7 +29,6 @@ Print the subarrays and the difference of their sums.
 '''
 
 from itertools import combinations
-#WIP
 
 def array_sum(array):
     total = 0
@@ -79,4 +78,4 @@ for iterat in elements:
 st1 = elements
 st2 = found
 
-print("\n\nSukces z odchyleniem:",counter ,"\nPierwsza tablica:", st1, "\nDruga tablica:", st2)
+print("\n\nSukces z odchyleniem:",counter-1 ,"\nPierwsza tablica:", st1, "\nDruga tablica:", st2)

@@ -35,20 +35,24 @@ def dividers(a):
 def phi(b):
     #creating list of all numbers up to b
     relprim = list(range(1,b)) 
+    result_nubers = list(range(1,b))
     #creating list of dividers of b (In order to speed up the process a little)
     divib = dividers(b)
     #itering through every number up to b
+    print(relprim, 'posiada dzielniki', divib)
     for rel in relprim:
+        print('Liczba', rel)
         #iterating through all dividers of actual number
         for div in dividers(rel):
+            print(div)
             #checking if any divider is in dividers of b
-            if div in divib and rel in relprim:
+            if div in divib and rel in result_nubers:
                 #if yes, then removes the number from list of all numbers up to b
                 print("Usuwanie liczby",rel, "gdyż posiada dzielnik", div, "obecny w dzielnikach numeru", b)
-                relprim.remove(rel)
+                result_nubers.remove(rel)
 
-    print(relprim)
-    x = len(relprim)
+    print(result_nubers)
+    x = len(result_nubers)
     return x
 
 #Infinite loop taking input from user
