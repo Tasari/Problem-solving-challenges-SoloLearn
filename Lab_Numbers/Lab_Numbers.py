@@ -28,7 +28,7 @@ def dividers_founder(a):
 #Checking if number is prime
 def prime_checker(b):
     x=2
-    while x < b//2:
+    while x <= b//2:
         if b%x == 0:
             return False
         else:
